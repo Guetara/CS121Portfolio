@@ -55,7 +55,8 @@ public class Roster {
         StringBuilder stringBuilder = new StringBuilder();
 
         for (Player player : playerList) {
-            stringBuilder.append(player.toString() + "\n");
+            stringBuilder.append(player.toString());
+            stringBuilder.append("\n");
         }
 
         return stringBuilder;
@@ -65,7 +66,8 @@ public class Roster {
         StringBuilder stringBuilder = new StringBuilder();
 
         for(Pitcher pitcher : pitcherList){
-            stringBuilder.append(pitcher.toString() + "\n");
+            stringBuilder.append(pitcher.toString());
+            stringBuilder.append("\n");
         }
 
         return stringBuilder;

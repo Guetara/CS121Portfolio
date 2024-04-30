@@ -1,5 +1,5 @@
 public class Pitcher extends Player{
-    private int earnedRuns, inningsPitched;
+    final private int earnedRuns, inningsPitched;
 
     public Pitcher(String name, int hits, int atBats, int earnedRuns, int inningsPitched){
         super(name, hits, atBats);
